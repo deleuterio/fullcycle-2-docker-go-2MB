@@ -17,3 +17,14 @@ Lembrando que a Go Lang possui imagens oficiais prontas, vale a pena consultar o
 Dica: No vídeo de introdução sobre o Docker quando falamos sobre o sistema de arquivos em camadas, apresento uma imagem "raiz", talvez seja uma boa utilizá-la.
 
 Divirta-se
+
+## Build da imagem
+Para buildar a aplicação bastar executar `sh build.sh`.
+Esse build irá apenas usar a imagem golang:1.18 e cria um executável bem pequeno do go.
+
+## Publicar a imagem
+A publicação usa o Dockerfile que usa uma imagem `scratch`, ou seja, uma imagem _raw_ ou limpa do docker bem pequena, que apenas irá executar o binário buildado pelo processo de build.
+
+## Executar a aplicação
+Basta executar:
+`docker run duckdodgerbrasl/codeeducation`
