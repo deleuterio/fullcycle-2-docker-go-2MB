@@ -1,6 +1,12 @@
 # fullcycle-2-docker-go-2MB
 Esse desafio é muito empolgante principalmente se você nunca trabalhou com a linguagem Go!
 
+## Link para dockerhub
+Na descrição do github ou
+https://hub.docker.com/repository/docker/duckdodgerbrasl/codeeducation
+
+Também tem referência do github na página do dockerhub.
+
 ## Descrição do desafio
 Você terá que publicar uma imagem no docker hub. Quando executarmos:
 
