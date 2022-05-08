@@ -25,7 +25,7 @@ Dica: No vídeo de introdução sobre o Docker quando falamos sobre o sistema de
 Divirta-se
 
 ## Build da imagem
-Para buildar a aplicação bastar executar `sh build.sh`.
+Para buildar a aplicação bastar executar `docker build --tag duckdodgerbrasl/codeeducation:latest .`.
 Esse build irá apenas usar a imagem golang:1.18 e cria um executável bem pequeno do go.
 
 ## Publicar a imagem
