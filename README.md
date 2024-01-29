@@ -34,3 +34,7 @@ A publicação usa o Dockerfile que usa uma imagem `scratch`, ou seja, uma image
 ## Executar a aplicação
 Basta executar:
 `docker run duckdodgerbrasl/codeeducation`
+
+
+
+# Notion
